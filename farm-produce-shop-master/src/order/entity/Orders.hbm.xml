@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="order.entity.Orders" table="orders" schema="farm_produce_shop">
+        <id name="oid" column="oid">
+            <generator class="native"/>
+        </id>
+        <property name="total" column="total"/>
+        <property name="ordertime" column="ordertime"/>
+        <property name="state" column="state"/>
+        <property name="name" column="name"/>
+        <property name="phone" column="phone"/>
+        <property name="addr" column="addr"/>
+        <!--和User多对一-->
+        <many-to-one name="user" lazy="false" class="user.entity.User" column="uid"/>
+        <!--和中间表的一对多-->
+        <set name="orderitems" cascade="save-update" lazy="false" inverse="true">
+            <key column="oid"/>
+            <one-to-many class="item.entity.Orderitem"/>
+        </set>
+    </class>
+</hibernate-mapping>

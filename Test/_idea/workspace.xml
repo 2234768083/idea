@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b84eb93-3131-46ed-9254-c4aaf65629fd" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GwnDzyw3TggEPIStWyNv8Eh4FP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programmer/code/idea/gyw2728_20221117_chap09&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yzy2727_20221117.nuc.ss.list" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programmer\code\idea\test\yzy2727_20221117_chap09\src" />
+      <recent name="D:\programmer\code\idea\test\src\yzy2727_221106_exp10\nuc\ss\factory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programmer\code\idea\test\src\exp13\db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yzy2727_20221117.eneity" />
+      <recent name="nuc.ss.shopping1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.SaleTicketTest (1)">
+    <configuration name="SaleTicketTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp14.nuc.ss.SaleTicketTest" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp14.nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp14.nuc.ss.SaleTicketTest" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp14.nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp14.nuc.ss.SaleTicketTest" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp14.nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp14.nuc.ss.SaleTicketTest" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp14.nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp14.nuc.ss.SaleTicketTest" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp14.nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.SaleTicketTest (1)" />
+        <item itemvalue="应用程序.SaleTicketTest (5)" />
+        <item itemvalue="应用程序.SaleTicketTest (4)" />
+        <item itemvalue="应用程序.SaleTicketTest (3)" />
+        <item itemvalue="应用程序.SaleTicketTest (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6b84eb93-3131-46ed-9254-c4aaf65629fd" name="变更" comment="" />
+      <created>1667308399138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667308399138</updated>
+      <workItem from="1667308400279" duration="134000" />
+      <workItem from="1667311508109" duration="19000" />
+      <workItem from="1667312091682" duration="3351000" />
+      <workItem from="1667318771893" duration="885000" />
+      <workItem from="1667358885268" duration="2991000" />
+      <workItem from="1667389594269" duration="227000" />
+      <workItem from="1667391025489" duration="1516000" />
+      <workItem from="1667393459546" duration="1566000" />
+      <workItem from="1667396197434" duration="44000" />
+      <workItem from="1667396323165" duration="46000" />
+      <workItem from="1667561341634" duration="374000" />
+      <workItem from="1667613298503" duration="602000" />
+      <workItem from="1667619655852" duration="593000" />
+      <workItem from="1667692725841" duration="4291000" />
+      <workItem from="1667697894887" duration="876000" />
+      <workItem from="1667698788397" duration="5066000" />
+      <workItem from="1667897710470" duration="2246000" />
+      <workItem from="1667912377313" duration="323000" />
+      <workItem from="1667912895346" duration="1209000" />
+      <workItem from="1668086526676" duration="3709000" />
+      <workItem from="1668179547754" duration="4116000" />
+      <workItem from="1668218885288" duration="2158000" />
+      <workItem from="1668224491885" duration="910000" />
+      <workItem from="1668298223686" duration="11469000" />
+      <workItem from="1668323783007" duration="2526000" />
+      <workItem from="1668404148221" duration="18000" />
+      <workItem from="1668515794899" duration="2555000" />
+      <workItem from="1668573799672" duration="1525000" />
+      <workItem from="1668601723956" duration="1217000" />
+      <workItem from="1668651282571" duration="207000" />
+      <workItem from="1668651662226" duration="4809000" />
+      <workItem from="1668867868231" duration="82000" />
+      <workItem from="1668902831037" duration="10527000" />
+      <workItem from="1669184109840" duration="218000" />
+      <workItem from="1669184350628" duration="761000" />
+      <workItem from="1669185506340" duration="1667000" />
+      <workItem from="1669193835257" duration="2112000" />
+      <workItem from="1669196204047" duration="1205000" />
+      <workItem from="1669288277196" duration="51000" />
+      <workItem from="1669378251474" duration="1793000" />
+      <workItem from="1669430716353" duration="3184000" />
+      <workItem from="1669462610091" duration="2790000" />
+      <workItem from="1669524951291" duration="1216000" />
+      <workItem from="1669556450968" duration="599000" />
+      <workItem from="1669601813140" duration="105000" />
+      <workItem from="1669603613288" duration="32000" />
+      <workItem from="1670112238886" duration="682000" />
+      <workItem from="1670112950700" duration="42000" />
+      <workItem from="1670113731821" duration="2596000" />
+      <workItem from="1671155972023" duration="603000" />
+      <workItem from="1671159785137" duration="149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

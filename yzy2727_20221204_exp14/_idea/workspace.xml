@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="135edd9d-d8ed-4f9c-9fa3-168ac0ea7325" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IQTphsFYhHUuwJktMkkpNsr0dc" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunManager" selected="应用程序.nuc.ss.SaleTicketTest (2)">
+    <configuration name="SaleTicketTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nuc.ss.SaleTicketTest" />
+      <module name="yzy2727_20221204_exp14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nuc.ss.SaleTicketTest" />
+      <module name="yzy2727_20221204_exp14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nuc.ss.SaleTicketTest" />
+      <module name="yzy2727_20221204_exp14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nuc.ss.TestSaleTicket" />
+      <module name="yzy2727_20221204_exp14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nuc.ss.SaleTicketTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nuc.ss.SaleTicketTest" />
+      <module name="yzy2727_20221204_exp14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nuc.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.nuc.ss.SaleTicketTest (2)" />
+        <item itemvalue="应用程序.SaleTicketTest (2)" />
+        <item itemvalue="应用程序.TestSaleTicket" />
+        <item itemvalue="应用程序.SaleTicketTest (1)" />
+        <item itemvalue="应用程序.SaleTicketTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="135edd9d-d8ed-4f9c-9fa3-168ac0ea7325" name="变更" comment="" />
+      <created>1670112993346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670112993346</updated>
+      <workItem from="1670112994547" duration="6447000" />
+      <workItem from="1671159936356" duration="2180000" />
+      <workItem from="1671437626904" duration="77000" />
+      <workItem from="1671438588311" duration="801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

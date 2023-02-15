@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <context:property-placeholder location="classpath:c3p0.properties"/>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+    </bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.connection.autocommit">false</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+        <property name="mappingResources">
+            <list>
+                <value>user/entity/User.hbm.xml</value>
+                <value>category/entity/Category.hbm.xml</value>
+                <value>product/entity/Product.hbm.xml</value>
+                <value>category/entity/Categorysecond.hbm.xml</value>
+                <value>order/entity/Orders.hbm.xml</value>
+                <value>item/entity/Orderitem.hbm.xml</value>
+                <value>admin/entity/Adminuser.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+    <!--ACTION-->
+    <bean id="indexAction" class="index.action.IndexAction" scope="prototype">
+        <!--一级分类-->
+        <property name="categoryService" ref="categoryService"/>
+        <!--商品-->
+        <property name="productService" ref="productService"/>
+    </bean>
+        <!--User-->
+    <bean id="userAction" class="user.action.UserAction" scope="prototype">
+        <property name="userService" ref="userService"/>
+    </bean>
+    <bean id="productAction" class="product.action.ProductAction" scope="prototype">
+        <property name="productService" ref="productService"/>
+        <property name="categorysecondService" ref="categorysercondService"/>
+    </bean>
+    <bean id="categoryAction" class="category.action.CategoryAction" scope="prototype">
+        <property name="categoryService" ref="categoryService"/>
+    </bean>
+    <bean id="cateGorysecondAction" class="category.action.CateGorysecondAction">
+        <property name="categorysercondService" ref="categorysercondService"/>
+    </bean>
+    <bean id="cartAction" class="cart.action.CartAction" scope="prototype">
+    <property name="cartService" ref="cartService"/>
+    </bean>
+    <bean id="adminAction" class="admin.action.AdminAction" scope="prototype">
+        <property name="adminService" ref="adminService"/>
+    </bean>
+    <!--Order-->
+    <bean name="oderAction" class="order.action.OderAction" scope="prototype">
+    <property name="orderService" ref="orderService"/>
+    </bean>
+
+    <!--SERVICE-->
+        <!--User-->
+    <bean id="userService" class="user.service.UserService">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+        <!--一级分类-->
+    <bean id="categoryService" class="category.service.CategoryService">
+        <property name="categoryDao" ref="categoryDao"/>
+        <property name="productDao" ref="productDao"/>
+    </bean>
+    <bean id="categorysercondService" class="category.service.CategorysercondService">
+        <property name="productDao" ref="productDao"/>
+        <property name="categorysecondDao" ref="categorysecondDao"/>
+        <property name="categoryDao" ref="categoryDao"/>
+    </bean>
+        <!--商品-->
+    <bean id="productService" class="product.servcie.ProductService">
+        <property name="productDao" ref="productDao"/>
+    </bean>
+    <bean id="cartService" class="cart.service.CartService">
+        <property name="productDao" ref="productDao"/>
+    </bean>
+    <bean id="orderService" class="order.service.OrderService">
+        <property name="itemDao" ref="itemDao"/>
+        <property name="orderDao" ref="orderDao"/>
+    </bean>
+        <!--管理员-->
+    <bean id="adminService" class="admin.service.AdminService">
+        <property name="adminDao" ref="adminDao"/>
+    </bean>
+    <!--DAO-->
+        <!--User-->
+    <bean id="userDao" class="user.dao.UserDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        <!--一级分类-->
+    <bean id="categoryDao" class="category.dao.CategoryDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        <!--商品-->
+    <bean id="productDao" class="product.dao.ProductDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        <!--中间表-->
+    <bean id="itemDao" class="item.dao.ItemDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        <!--管理员-->
+    <bean id="adminDao" class="admin.dao.AdminDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        <!--二级分类-->
+    <bean id="categorysecondDao" class="category.dao.CategorysecondDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="orderDao" class="order.dao.OrderDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!--<context:component-scan base-package="index.action"/>-->
+    <!--<context:component-scan base-package="user.action"/>-->
+</beans>
